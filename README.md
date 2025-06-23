@@ -2,7 +2,6 @@
 
 This project applies unsupervised machine learning — specifically KMeans clustering — to segment stocks listed on the Brazilian stock exchange (B3) into distinct groups based on financial characteristics. The goal is to uncover natural groupings in the market that can support portfolio decisions, screening strategies, or exploratory financial analysis.
 
----
 
 ## 🧠 Project Objective
 
@@ -15,7 +14,7 @@ The main objective is to group B3-listed companies into clusters based on key fi
 
 These clusters help identify patterns and similarities among companies beyond industry labels or market sectors.
 
----
+
 
 ## ⚙️ Technologies & Libraries Used
 
@@ -25,13 +24,13 @@ These clusters help identify patterns and similarities among companies beyond in
 - matplotlib / seaborn
 - scikit-learn
 
----
+
 
 ## 📂 Dataset
 
 The dataset includes fundamental metrics of publicly traded companies from B3. These include market cap, beta, dividend yield, and returns — normalized before clustering. (Additional sources can be merged for future work.)
 
----
+
 
 ## 📌 Methodology
 
@@ -40,7 +39,7 @@ The dataset includes fundamental metrics of publicly traded companies from B3. T
 3. **KMeans Clustering**: Performed on scaled numerical features.
 4. **2D Visualizations**: Scatter plots and bar charts to interpret and validate the formed clusters.
 
----
+
 
 ## 🔍 Cluster Interpretations
 
@@ -56,7 +55,6 @@ The dataset includes fundamental metrics of publicly traded companies from B3. T
 - **Cluster 3**:  
   Very large market caps, strong dividends, high return, moderate-to-high beta. Blue-chip or market leaders.
 
----
 
 ## 📈 Visual Analysis
 
@@ -67,13 +65,11 @@ The notebook includes multiple visualizations:
 
 These allow deeper insights into the behavior and distinction of each group.
 
----
 
 ## ✅ Conclusion
 
 Clustering revealed meaningful patterns in the B3 market using just a few financial features. The project shows how unsupervised learning can help structure large datasets and inform investment strategies.
 
----
 
 ## 🚀 Next Steps
 
@@ -82,3 +78,7 @@ Clustering revealed meaningful patterns in the B3 market using just a few financ
 - Explore other clustering algorithms (DBSCAN, Agglomerative).
 - Benchmark clusters against international stocks.
 - Incorporate time-series features or momentum indicators.
+
+## 👨‍💻 Author
+João Vitor Barros da Silva
+Senior Computer Science Student – Penn State
